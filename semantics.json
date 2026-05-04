@@ -54,6 +54,15 @@
             "optional": true
           },
           {
+            "name": "feedbackSeparator",
+            "type": "text",
+            "label": "Separate the correct item  to the total item",
+            "importance": "low",
+            "placeholder": "of",
+            "description": "Please enter the separator of the score Example: Correct 1 SEPARATOR(for example 'of') 5",
+            "optional": true
+            },
+          {
             "name": "numberHotspots",
             "type": "number",
             "label": "Number of correct hotspots that need to be found for question completion",
@@ -147,8 +156,8 @@
             "importance": "low",
             "optional": true
           },
-          {
-            "name": "feedbackSeparator",
+          "{
+            "name": "feedbackSeparatorSubsituted",
             "type": "text",
             "label": "Separate the correct item  to the total item",
             "importance": "low",
